@@ -25,6 +25,9 @@ https://code.visualstudio.com/#alt-downloads
 
 conda create --name "name" python=3.10
 
+如果發現 conda acvtivate "name" 沒有反應
+請記得新增系統環境變數，例如：C:\anaconda\scripts、C:\anaconda\condabin、C:\anaconda
+
 ### 2.驗證 CUDA 
 
 nvcc -V
